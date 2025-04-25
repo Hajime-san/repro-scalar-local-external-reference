@@ -1,0 +1,7 @@
+{
+  "lock": false,
+  "tasks": {
+    "start-scalar": "HTML_FILE=scalar.html deno run --watch -RE --allow-net=0.0.0.0 server.ts",
+    "start-swagger": "HTML_FILE=swagger.html deno run --watch -RE --allow-net=0.0.0.0 server.ts"
+  }
+}

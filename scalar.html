@@ -1,0 +1,25 @@
+<!-- https://github.com/scalar/scalar/blob/4e81965d9020e2d4181d7c7c7b769d04a29d1c72/README.md#quickstart -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scalar API Reference</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- Load the Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.28.26"
+    ></script>
+
+    <!-- Initialize the Scalar API Reference -->
+    <script>
+      Scalar.createApiReference("#app", {
+        url: "./petstore.yaml",
+      });
+    </script>
+  </body>
+</html>
